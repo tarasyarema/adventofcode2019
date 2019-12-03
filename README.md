@@ -6,13 +6,14 @@ I will try to solve every problem of this year's [advent of code](http://advento
 
 1. C
 2. Nim
+3. Python
 
 ### Checkbox
 
 - [x] C
 - [ ] C++
 - [ ] C#
-- [ ] Python
+- [x] Python
 - [x] Nim
 - [ ] Java
 - [ ] Javascript
