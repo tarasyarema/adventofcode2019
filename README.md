@@ -7,6 +7,7 @@ I will try to solve every problem of this year's [advent of code](http://advento
 1. C
 2. Nim
 3. Python
+4. Elixir
 
 ### Checkbox
 
@@ -18,7 +19,7 @@ I will try to solve every problem of this year's [advent of code](http://advento
 - [ ] Java
 - [ ] Javascript
 - [ ] Erlang
-- [ ] Elixir
+- [x] Elixir
 - [ ] F#
 - [ ] Rust
 - [ ] Clojure
