@@ -8,6 +8,6 @@ I guess it's just C. A good way to start this advent calendar :P
 Good old `gcc`:
 ```bash
 gcc main.c -o main
-./main < in
+./main
 ```
 
