@@ -8,6 +8,7 @@ I will try to solve every problem of this year's [advent of code](http://advento
 2. Nim
 3. Python
 4. Elixir
+5. Perl
 
 ### Checkbox
 
@@ -23,7 +24,7 @@ I will try to solve every problem of this year's [advent of code](http://advento
 - [ ] F#
 - [ ] Rust
 - [ ] Clojure
-- [ ] Perl
+- [x] Perl
 - [ ] Bash
 - [ ] Go
 - [ ] Scala
