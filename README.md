@@ -9,6 +9,7 @@ I will try to solve every problem of this year's [advent of code](http://advento
 3. Python
 4. Elixir
 5. Perl
+6. Dart
 
 ### Checkbox
 
@@ -33,7 +34,7 @@ I will try to solve every problem of this year's [advent of code](http://advento
 - [ ] PHP
 - [ ] Kotlin
 - [ ] R
-- [ ] Dart
+- [x] Dart
 - [ ] Fortran
 - [ ] OCaml
 - [ ] Crystal
