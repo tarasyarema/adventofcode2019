@@ -57,5 +57,5 @@ def p2(line, w, t)
   puts "{\"data\":#{image}}\n"
 end
 
-# p1(line, w, t)
+p1(line, w, t)
 p2(line, w, t)

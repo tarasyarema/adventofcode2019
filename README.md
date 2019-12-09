@@ -12,7 +12,23 @@ I will try to solve every problem of this year's [advent of code](http://advento
 6. Dart
 7. Bash
 8. Ruby
-9. ...
+9. *Perl*
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
 
 ### Checkbox
 
