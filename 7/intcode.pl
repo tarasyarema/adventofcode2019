@@ -11,8 +11,8 @@ my @magic = map { int($_) } (split /,/, <STDIN>);
 my $j = 0;
 my $i = 0;
 
-# print Dumper \@data;
-while (1) {
+while (1) 
+{
     my $tmp = @data[$i];
 
     my $code = int ($tmp % 100);
@@ -22,32 +22,50 @@ while (1) {
 
     last if ($code == 99);
     
-    my $x = $op1 == 1 ? @data[$i + 1]: @data[@data[$i + 1]]; 
-    my $y = $op2 == 1 ? @data[$i + 2]: @data[@data[$i + 2]];
+    my $x = $op1 == 1 ? @data[$i + 1] : @data[@data[$i + 1]]; 
+    my $y = $op2 == 1 ? @data[$i + 2] : @data[@data[$i + 2]];
     my $z = @data[$i + 3]; 
 
-    if ($code == 1) {
+    if ($code == 1) 
+    {
         @data[$z] = $x + $y;
         $i += 4;
-    } elsif ($code == 2) {
+    } 
+    elsif ($code == 2) 
+    {
         @data[$z] = $x * $y;
         $i += 4;
-    } elsif ($code == 3) {
+    } 
+    elsif ($code == 3) 
+    {
         @data[@data[$i + 1]] = @magic[$j];
+
         $j += 1;
         $i += 2;
-    } elsif ($code == 4) {
-        print "@data[@data[$i + 1]]\n";
+    } 
+    elsif ($code == 4) 
+    {
+        print "@data[@data[$i + 1]]"; 
         $i += 2;
-    } elsif ($code == 5) {
+    } 
+    elsif ($code == 5) 
+    {
         $i = $x != 0 ? $y : $i + 3;
-    } elsif ($code == 6) {
+    }
+    elsif ($code == 6) 
+    {
         $i = $x == 0 ? $y : $i + 3;
-    } elsif ($code == 7) {
+    } 
+    elsif ($code == 7) 
+    {
         @data[$z] = $x < $y ? 1 : 0;
         $i += 4;
-    } elsif ($code == 8) {
+    } 
+    elsif ($code == 8) 
+    {
         @data[$z] = $x == $y ? 1 : 0;
         $i += 4;
     }
 }
+
+print "\n";

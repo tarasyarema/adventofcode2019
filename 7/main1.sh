@@ -20,10 +20,10 @@ do
     tmp=0
 
     for i in $(seq 1 ${#w})
-    do 
+    do  
         tmp=$(echo "${w:i-1:1},$tmp" | perl intcode.pl)
     done
-    
+
     if [[ $tmp -ge $max ]]; then max=$tmp; fi
 done
 

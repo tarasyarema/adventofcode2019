@@ -10,9 +10,9 @@ I will try to solve every problem of this year's [advent of code](http://advento
 4. Elixir
 5. Perl
 6. Dart
-7. Bash
+7. Bash & Python (*Perl*)
 8. Ruby
-9. *Perl*
+9. *Perl* (refactor of day 5)
 10. 
 11. 
 12. 
