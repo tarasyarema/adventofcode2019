@@ -10,6 +10,9 @@ I will try to solve every problem of this year's [advent of code](http://advento
 4. Elixir
 5. Perl
 6. Dart
+7. Bash
+8. Ruby
+9. ...
 
 ### Checkbox
 
@@ -26,10 +29,10 @@ I will try to solve every problem of this year's [advent of code](http://advento
 - [ ] Rust
 - [ ] Clojure
 - [x] Perl
-- [ ] Bash
+- [x] Bash
 - [ ] Go
 - [ ] Scala
-- [ ] Ruby
+- [x] Ruby
 - [ ] Objective-C
 - [ ] PHP
 - [ ] Kotlin
